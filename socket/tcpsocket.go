@@ -1,12 +1,12 @@
 package socket
 
 import (
+	"Ginger/packet"
+	"Ginger/recvbuffer"
 	"errors"
 	log "github.com/donnie4w/go-logger/logger"
 	"io"
 	"net"
-	"packet"
-	"recvbuffer"
 	"syscall"
 )
 

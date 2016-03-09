@@ -1,12 +1,12 @@
 package main
 
 import (
+	"Ginger/packet"
+	"Ginger/socket"
 	log "github.com/donnie4w/go-logger/logger"
 	"os"
 	"os/exec"
-	"packet"
 	"path/filepath"
-	"socket"
 	"strings"
 	"time"
 )

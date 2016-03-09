@@ -1,9 +1,9 @@
 package main
 
 import (
+	"Ginger/packet"
+	"Ginger/socket"
 	log "github.com/donnie4w/go-logger/logger"
-	"packet"
-	"socket"
 )
 
 func fmain() {

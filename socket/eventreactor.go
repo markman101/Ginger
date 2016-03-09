@@ -1,7 +1,7 @@
 package socket
 
 import (
-	"packet"
+	"Ginger/packet"
 )
 
 type EventReactor interface {

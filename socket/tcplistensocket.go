@@ -1,11 +1,11 @@
 package socket
 
 import (
+	"Ginger/packet"
 	"errors"
 	"fmt"
 	log "github.com/donnie4w/go-logger/logger"
 	"net"
-	"packet"
 )
 
 type TcpListenSocket struct {
